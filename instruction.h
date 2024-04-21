@@ -5,7 +5,7 @@
 
 namespace Jittery_boy {
 
-  enum class Instruct_tag { add };
+  enum class Instruct_tag { add, adc, sub };
 
   struct Instruct {
     Instruct_tag instruct;
